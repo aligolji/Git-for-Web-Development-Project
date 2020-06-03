@@ -56,20 +56,34 @@ https://codepen.io/aligolji/pen/ExPxaqj
     23. How do you select all links within a div with the class of sidebar?
 	.sidebar div a
     24. What is a pseudo selector?
-	
+	a selector used to define a particular state of an element.
     25. What do we use the change the spacing between lines?
+	line-height:
     26. What do we use to change the spacing between letters?
+	letter-spacing:
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: uppercase / lowercase / capitalize
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+	div {border: 1px; border-style: dotted; border-color: black;}
+    29. How do I select everything on the page?
+	*  select all elements
     30. How do I write a comment in CSS?
+	/* write your comment here */
     31. How do I find out what file I am in, when I am using the command line? 
+	pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
-    33. How do I remove a file via the command line? Why do I have to be careful with this? 
-    34. Why should I use version control? 
+	ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+	rm <filename to be deleted>
+	this function is irrevesible and permanent, so must be careful.
+    34. Why should I use version control?
+	It allows for tracking of what changes were made and when. Also allows for reverting back to an older version of a document in case necessary to revert back.
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+	as often as any changes are made, about every 20 minutes or sooner.
+    36. What is the command we would use to push our repo up to github?
+	git push 
+    37. Walk me through Lambda's git flow.
+	
 
 Stretch Questions
 
