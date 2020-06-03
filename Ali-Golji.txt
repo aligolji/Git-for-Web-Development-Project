@@ -83,6 +83,27 @@ https://codepen.io/aligolji/pen/ExPxaqj
     36. What is the command we would use to push our repo up to github?
 	git push 
     37. Walk me through Lambda's git flow.
+	Fork Repo to be worked on to create under my name.
+	Add my TL onto forked Repo as collaborator
+	Clone Repo from Github
+	Inside local terminal open directory which Repo is to be cloned into
+	Clone Repo into selected directory using "git clone <link>"
+	Change directories into new cloned repo using "cd <repo-name>"
+	Create local/personal branch to work on using "git checkout -b" follwed by the new branch name
+	Work on Repo/assignment
+	use "git add ." command to prepare changes for committing
+	use "git commit -m" followed by a message to inform myself / another user of changed being committed, this will commit changed to my branch
+	Push changes from local machine back to Github using "git push -u origin branch-name" (from earlier created branch)
+	Return to Github
+	Open forked copy of project under my name
+	Click on "Branch: master" button
+		Click on the new branch under my name
+	Click "New pull request" button to open a pull request on this branch
+	Click dropdown "base repository"
+		Click on my new FORKED repo
+	Add my TL to "Reviewers" tab on the right side of page
+	Click "Create pull request"
+	Be aware not to merge my pull request.
 	
 
 Stretch Questions
