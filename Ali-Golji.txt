@@ -3,22 +3,40 @@ CSS + HTML Practice codepen
 https://codepen.io/aligolji/pen/ExPxaqj
 
 
-    1. What is Semantic HTML? 
-    2. What is HTML used for? 
-    3. What is an attribute and where do we put it? 
+    1. What is Semantic HTML?
+	Markup language to give meaning to content on a web page.
+    2. What is HTML used for?
+	HTML is used for creating documents on the web. HTML defines layout and structure of a web document.
+    3. What is an attribute and where do we put it?
+	An attribute provides information that modifies the default function of an element.
+	Attributes are written inside the opening tag.
     4. What is the h1 tag used for? How many times should I use it on a page?
-    5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
-    7. What is an id? 
-    8. What elements can I add an id to? 
-    9. How many times can I use the same id on a page? 
+	The h1 tag designates a heading on a website. It is usually to be used one time on a page.
+    5. Name two tags that have required attributes.
+	<a> - anchor tag requires an "href" (hyperlink) attribute
+	<img> - image tag requires a "src" (source) attribute
+    6. What do we put in the head of our HTML document?
+	Document title, style, links, character sets.
+    7. What is an id?
+	Specifies a unique id for an element.
+    8. What elements can I add an id to?
+	All elements can have an id.
+    9. How many times can I use the same id on a page?
+	Each id can be used only once on a page, unique to the element. 
     10. What is a class? 
-    11. What elements can I add a class to? 
-    12. How many times can I use the same class on a page? 
+	An attribute that specifies particular elements.
+    11. What elements can I add a class to?
+	Any element can have a class.
+    12. How many times can I use the same class on a page?
+	As many as needed.
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+	Add the attribute "target" and set it's value to "_blank". (target="_blank"). 
+    14. What is the alt attribute in the image tag used for?
+	Provides alternate information in case the image does not display on the page.
     15. How do I reference an id?
-    16. What is the difference between a section and a div
+	Use the # symbol followed by the id to be referenced.
+    16. What is the difference between a section and a div?
+	
     17. What is CSS used for? 
     18. How to we select an element? Example - every h2 on the page
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
